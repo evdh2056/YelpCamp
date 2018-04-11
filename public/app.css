@@ -1,0 +1,95 @@
+.thumbnail img {
+	width: 100%;
+}
+.thumbnail .caption {
+	padding: 9px;
+}
+.thumbnail {
+	padding: 0;
+}
+
+.thumbnail a>img {
+	height: 200px;
+}
+
+.delete-form {
+	display: inline;
+}
+
+#more-info {
+	margin: 0px 0px 10px 10px;
+}
+
+.auth-container {
+	width: 420px;
+	align-self: center;
+}
+.auth-form {
+	width: 300px;
+	text-align: center;
+}
+.auth-form input {
+	width: 300px;
+}
+
+/* 
+
+header.jumbotron {
+	background-color: #ffffff;
+	background: url(http://i.imgur.com/TVGe0Ef.jpg);
+	color: white;
+	text-align: center;
+	background-size: cover;
+	margin-top: 100px;
+}
+
+.container.show {
+	text-align: left;
+	width: 80%;
+}
+
+.jumbotron .container {
+	background-color: rgba(10, 130, 4, .6);
+}
+
+.camplist{
+	display: flex; flex-wrap: wrap;
+}
+
+.newCampground .newComment {
+	width: 30%;
+	margin: 0 auto;
+} */
+
+/*.glyph {
+	margin-right: 10px;
+}*/
+/*.navbar-default {
+	margin-bottom: 0;
+}
+
+.navbar-inverse {
+	background-color: #ffffff;
+	border-style: none;
+	margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: green;
+    font-size: 1.5em;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: black;
+}*/
+/*.navbar-inverse .navbar-brand {
+    color: green;
+    font-size: 3em;
+}
+*/
+/* .img-fluid {
+	align-content: center;
+	width: 100%;
+	height: auto;
+	margin: 2em 0;
+
+} */

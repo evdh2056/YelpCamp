@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+
+ <div class="container">
+	<div class="row">
+		<h1>Edit my comment</h1> 
+		<div class="newComment">
+			<form action="/campgrounds/<%=campground_id%>/comments/<%=comment._id%>?_method=PUT" method="POST"> 
+				<p class="form-group">
+					<input class="form-control" type="text" name="comment[text]" value="<%=comment.text%>" ></input>
+                </p>				
+                <button class="btn btn-success">Save</button>
+            </form>
+            <form  class="delete-form" action="/campgrounds/<%=campground_id%>/comments/<%=comment._id%>?_method=DELETE" method="POST"> 		
+                <button class="btn btn-warning">Delete</button>					
+            </form>		
+		</div>
+	</div>
+</div>
+
+<% include ../partials/footer %>
+
